@@ -1,21 +1,11 @@
-StartupEvents.registry('item', event => {	
+StartupEvents.registry('item', event => {		
 	//slag
-	event.create('slag')
-		.displayName('Slag')
-		.maxStackSize(16)
-		.fireResistant(true)
+	event.create("slag")
+		.displayName("slag")
 		
-	//ash
-	event.create("ash")
-		.displayName("Ash")
-		
-	//sulfur
-	event.create("raw_sulfur")
-		.displayName("Raw Sulfur")
-		
-	//resin
-	event.create("resin")
-		.displayName("Resin")
+	//bound fletching
+	event.create("bound_fletching")
+		.displayName("Bound Fletching")
 })
 
 StartupEvents.registry('block', event => {
@@ -30,26 +20,7 @@ StartupEvents.registry('block', event => {
 		.texture("up", 'kubejs:block/slag_block/slag_block_top').texture('down','kubejs:block/slag_block/slag_block_top')
 		.texture("north", 'kubejs:block/slag_block/slag_block_side').texture("east", 'kubejs:block/slag_block/slag_block_side').texture("south", 'kubejs:block/slag_block/slag_block_side').texture("west", 'kubejs:block/slag_block/slag_block_side')
 		//.particle("kubejs:block/slag_block/slag_block_side")
-		//.model('kubejs:block/slag_block.json')
-		
-	//ash block
-	event.create('ash_block')
-		.displayName("Ash Block")
-		.material("sand")
-		.soundType('sand')
-		.texture("up", 'kubejs:block/ash_block/ash_block_top').texture('down','kubejs:block/ash_block/ash_block_top')
-		.texture("north", 'kubejs:block/ash_block/ash_block_side').texture("east", 'kubejs:block/ash_block/ash_block_side').texture("south", 'kubejs:block/ash_block/ash_block_side').texture("west", 'kubejs:block/ash_block/ash_block_side')
-		//.particle("kubejs:block/ash_block/ash_block_side")
-		//.model('kubejs:block/ash_block.json')
-		
-		
-	/*
-	//fuck you missing textures
-	event.create('ass_block')
-		.displayName("Ass Block")
-		.texture("up", 'kubejs:block/slag_block/slag_block_top').texture('down','kubejs:block/slag_block/slag_block_top')
-		.texture("north", 'kubejs:block/slag_block/slag_block_side').texture("east", 'kubejs:block/slag_block/slag_block_side').texture("south", 'kubejs:block/slag_block/slag_block_side').texture("west", 'kubejs:block/slag_block/slag_block_side')
-	*/
+		//.model('kubejs:block/slag_block.json')		
 })
 /*
 ServerEvents.tags('item', event => {

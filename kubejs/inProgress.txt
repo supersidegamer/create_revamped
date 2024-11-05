@@ -1,17 +1,9 @@
-Pizza & proccessing
-Resin from honey
-
-Brass Ball Milling
-Dusted ores
-
 Ground Ender Pearls
 blaze rod sky compat
 
-Make sawing produce bark
-Burn saplings for ash
 Ash Uses
 Sulfur Uses
 Resin Uses
 Leather strips uses
-Kerosene + lamps
-Molten Metals + Casting
+
+kerosene -> experience chain
